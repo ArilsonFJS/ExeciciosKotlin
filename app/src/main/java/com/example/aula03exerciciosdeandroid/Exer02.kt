@@ -34,6 +34,7 @@ class Exer02 : AppCompatActivity() {
         }
     }
 
+        @SuppressLint("SuspiciousIndentation")
         fun dialogo(msg: String){
             val dialogo = AlertDialog.Builder(this)
                 .setTitle("Resultado")

@@ -11,6 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aula03ExerciciosDeAndroid"
         tools:targetApi="31">
+
+        <activity
+        android:name=".Exer03"
+        android:exported="true"/>
         <activity
             android:name=".Exer02"
             android:exported="true" />
