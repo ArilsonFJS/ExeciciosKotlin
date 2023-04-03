@@ -27,8 +27,8 @@ class Exer03 : AppCompatActivity() {
         val btnMult = findViewById<Button>(R.id.btnMultiplicar)
 
         btnSomar.setOnClickListener {
-            val valor1 = editValor1.text.toString().toFloat()
-            val valor2 = editValor2.text.toString().toFloat()
+            val valor1 = editValor1.text.toString().toInt()
+            val valor2 = editValor2.text.toString().toInt()
 
             var resultado = valor1 + valor2
 
